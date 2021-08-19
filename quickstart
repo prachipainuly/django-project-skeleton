@@ -1,0 +1,11 @@
+# A quickstart file that contains initial steps to test and enable django project/app
+Pre-Requisite: Python 3
+Create virtual environment (venv)
+Activate venv : .\venv\Scripts\activate
+pip install django djangorestframework
+django-admin startproject --template={path to the template zip} [project_name]
+cd src/[project_name]
+# make changes to models, views and serializers as per need or leave as is to test sample code
+python manage.py makemigrations app
+python manage.py migrate app
+python manage.py runserver

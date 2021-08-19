@@ -1,0 +1,16 @@
+# do NOT track Python compilation files
+*.py[cod]
+__python__/*
+
+# Todo: add pycache and other files to be ignored here
+
+# do NOT track coverage files/folders
+.coverage
+coverage_html
+
+# do NOT track compiled language files
+*.mo
+*.pot
+*.todo
+
+venv/
